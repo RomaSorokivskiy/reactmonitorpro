@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+
 //stylesheet
 import '../../../css/mainStyle/mainStyle.css'
 //import img
