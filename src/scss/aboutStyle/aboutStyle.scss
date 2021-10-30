@@ -28,7 +28,156 @@
     .vr{
       width: 16px;
       height: 193px;
-      background-color: #515258;
+      background: rgba(255, 255, 255, 0.3);
     }
+  }
+}
+.about_stage{
+  height: 535px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  h2{
+    margin-top: 42px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'CenturyGothic_bold';
+  }
+  .about_stage_text{
+    margin-top: 30px;
+    display: flex;
+    width: 972px;
+    justify-content: space-between;
+    .vr{
+      width: 16px;
+      height: 59px;
+      background-color: #A5ADB3;
+    }
+    p{
+      width: 920px;
+      font-size: 24px;
+      font-family: CenturyGothic;
+    }
+  }
+}
+.about_list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .about_item{
+    margin-top: 60px;
+    p{
+      margin-top: 30px;
+      font-family: "CenturyGothic";
+      font-size: 18px;
+      width: 240px;
+    }
+  }
+}
+.about_mission{
+  display: flex;
+  justify-content:center;
+  height: 486px;
+  background: url("../../img/MissionCover.png") no-repeat;
+  background-size: 100%;
+  h2{
+    margin-top: 45px;
+    color: #fff;
+    font-size: 48px;
+    font-family: 'CenturyGothic_bold';
+  }
+  &_text{
+    margin-top: 30px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    .text{
+      width: 870px;
+      color: #fff;
+      .mtA{
+        margin-top: 25px;
+      }
+      p{
+        font-size: 24px;
+        font-family: 'CenturyGothic';
+      }
+    }
+    .vr{
+      width: 16px;
+      height: 193px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+.about_tech{
+  display: flex;
+  justify-content: center;
+  height: 960px;
+  background: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+  h2{
+    margin-top: 45px;
+    color: #fff;
+    font-size: 48px;
+    font-family: 'CenturyGothic_bold';
+  }
+  .about_tech_textF{
+    margin-top: 30px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    .vr{
+      width: 16px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    p{
+      width: 870px;
+      font-family: 'CenturyGothic';
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+  .about_tech_img{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_tech_textT{
+    margin-top: 60px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    .vr{
+      width: 16px;
+      height: 136px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .text{
+      width: 870px;
+      p{
+        color: #fff;
+        font-family: 'CenturyGothic';
+        color: #fff;
+        font-size: 24px;
+      }
+      .mtA{
+        margin-top: 22px;
+      }
+    }
+  }
+}
+.footer_wrapper{
+  margin-top: 48px;
+  color: #fff;
+
+  h3{
+    font-size: 24px;
+    font-family: "CenturyGothic_bold";
+  }
+  p{
+    margin-top: 10px;
+    font-family: "CenturyGothic";
+    width: 256px;
   }
 }
