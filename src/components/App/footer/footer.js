@@ -5,7 +5,7 @@ export default Footer =>{
     return(
        <footer>
            <div className="container">
-               <Nav></Nav>
+                <Nav></Nav>
            </div>
            <div className="footer">
                <div className="container">

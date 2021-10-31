@@ -1,0 +1,87 @@
+.catalog_wrapper{
+  .catalogItem{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 807px;
+    .container{
+      height: 326px;
+    }
+    .main_banner{
+      .first{
+        position: absolute;
+        top: 470px;
+      }
+      .second{
+        position: absolute;
+        top: 1280px;
+      }
+      .third{
+        position: absolute;
+        top: 2140px;
+      }
+      .fourth{
+        position: absolute;
+        top: 3010px;
+      }
+      .fifth{
+        position: absolute;
+        top: 3870px;
+      }
+      .sixth{
+        position: absolute;
+        top: 4740px;
+      }
+      .seventh{
+        position: absolute;
+        top: 5600px;
+      }
+      h2{
+        font-size: 48px;
+        font-family: "CenturyGothic_bold";
+      }
+      h3{
+        text-transform: uppercase;
+        width: 500px;
+        font-size: 48px;
+        font-family: "PartnerUltraCondensed";
+        line-break: normal;
+      }
+    }
+  }
+  .stats{
+    width: 100%;
+    height: 481px;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .statsF{
+      margin-top: 50px;
+      width: 540px;
+    }
+    .statsT{
+      margin-top: 50px;
+      width: 540px;
+    }
+    .text{
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      font-family: "PartnerUltraCondensed";
+      font-size: 32px;
+    }
+    .logo{
+      margin-top: 10px;
+      width: 88px;
+      height: 21px;
+    }
+    .container{
+      height: 100%;
+    }
+  }
+}

@@ -1,10 +1,12 @@
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Catalog from '../pages/catalog'
 import Partner from '../pages/partner'
+import About from "../pages/about";
+
 
 import Line from "../../../img/line.png";
 
-export default Nav =>{
+export default function Nav(props) {
     return(
         <ul className="nav_list">
             <li className="active nav_item"><a href="/about">О компании</a></li>
@@ -23,9 +25,9 @@ export default Nav =>{
             <Router>
                 <Switch>
                     <Route exact path="/"/>
-                    <Route exact path="/about"/>
-                    <Route exact path="/catalog" component={Catalog}/>
-                    <Route exact path="/partner" component={Partner}/>
+                    <Route exact path="about" component={About}/>
+                    <Route exact path="catalog" component={Catalog}/>
+                    <Route exact path="partner" component={Partner}/>
                 </Switch>
             </Router>
         </ul>
