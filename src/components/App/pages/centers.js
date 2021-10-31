@@ -1,7 +1,6 @@
 import Header from '../haeder/header'
 import Footer from '../footer/footer'
-
-export default Partner =>{
+export default Centers =>{
     return(
         <div>
             <Header></Header>

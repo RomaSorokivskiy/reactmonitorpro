@@ -1,0 +1,63 @@
+html{
+  height: 1086px;
+}
+.guarantee{
+  display: flex;
+  justify-content: center;
+  height: 468px;
+  background: url("../../img/guarantee_bcg.png") no-repeat;
+  background-size: 100%;
+  h2{
+    margin-top: 30px;
+    font-family: "CenturyGothic_bold";
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .text{
+    margin-top: 30px;
+    width: 706px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 18px;
+    .p{
+      width: 670px;
+      img{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 76px;
+        height: 16px;
+      }
+      .mtA{
+        margin-top: 23px;
+      }
+    }
+    font-family: 'CenturyGothic';
+    .vr{
+      height: 243px;
+      width: 16px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+.dots{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  .dots__item{
+    display: flex;
+    width: 195px;
+    h3{
+      font-family: "PartnerUltraCondensed";
+      font-size:24px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-left: 10px;
+    }
+    img{
+      width: 26px;
+      height: 26px;
+    }
+  }
+}

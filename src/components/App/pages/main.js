@@ -29,17 +29,17 @@ export default App =>{
             </div>
             <div className="app_catalogInfo">
                 <h2>
-                    <a href="#">
+                    <a href="/centers">
                         сервисные центры
                     </a>
                 </h2>
                 <h2>
-                    <a href="#">
+                    <a href="/buy">
                         где купить
                     </a>
                 </h2>
                 <h2>
-                    <a href="#">
+                    <a href="/contacs">
                         контакты
                     </a>
                 </h2>
