@@ -84,7 +84,8 @@ footer{
   align-items: center;
   .footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 252px;
     width: 100%;
     .container{
@@ -102,9 +103,8 @@ footer{
     }
   }
   .copyright{
-    position: absolute;
-    top: 3150px;
-    left: 250px;
+    margin-top: 50px;
+    margin-left: -1234px;
     font-family: "CenturyGothic";
     font-size: 13px;
     color: rgba(255, 255, 255, 0.4);
