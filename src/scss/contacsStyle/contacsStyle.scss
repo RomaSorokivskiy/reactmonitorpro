@@ -1,0 +1,153 @@
+.contacs{
+  display: flex;
+  justify-content: center;
+  height: 1280px;
+  background:url("../../img/brand_element1.png") no-repeat center,radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+  h2{
+    margin-top: 50px;
+    font-family: "CenturyGothic_bold";
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+    .creator{
+      position: absolute;
+      top: 495px;
+      left: 1250px;
+      margin-top: 95px;
+      h3{
+        font-family: "PartnerUltraCondensed";
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffff;
+      }
+      .div{
+        margin-top: 12px;
+      }
+      .mtP{
+        margin-top: 0px;
+      }
+      p{
+        width: 256px;
+        margin-top: 20px;
+        font-family: "CenturyGothic";
+        font-size: 14px;
+        color: #ffff;
+      }
+    }
+  }
+.textF{
+    margin-top: 25px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+    .vr{
+      width: 16px;
+      height: 54px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    p{
+      width: 868px;
+      font-family:"CenturyGothic";
+      font-size: 24px;
+      color: #ffffff;
+    }
+  }
+.textT{
+    width: 100%;
+    .text{
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      width: 520px;
+      .vr{
+        width: 16px;
+        height: 190px;
+        background: rgba(255, 255, 255, 0.3);
+      }
+      .info{
+        width: 450px;
+        p{
+          margin-top: 10px;
+          font-family: "CenturyGothic";
+          font-size: 18px;
+          color: #ffff;
+        }
+        h3{
+          font-family: "CenturyGothic_bold";
+          font-size: 24px;
+          text-transform: uppercase;
+          color: #ffff;
+        }
+        h5{
+          margin-top: 20px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .w{
+            width: 323px;
+          }
+          p{
+            margin-top: 0;
+            font-family: "CenturyGothic";
+            font-size: 18px;
+            color: #ffff;
+          }
+        }
+      }
+    }
+    h2{
+      margin-top: 87px;
+      width: 778px;
+    }
+  }
+.form{
+  margin-top: 75px;
+  padding-left: 65px;
+  width: 920px;
+  height: 545px;
+  background-color: #ffffff;
+  button{
+    margin-top: 50px;
+    margin-left: 535px;
+    border-style: none;
+    background-color: #ffffff;
+    p{
+      top: 1270px;
+      left: 420px;
+      font-family: 'PartnerUltraCondensed';
+      font-size: 24px;
+    }
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  h2{
+    font-family: "CenturyGothic_bold";
+    font-size: 48px;
+    color: #000000;
+  }
+  p{
+    margin-top: 35px;
+    font-family: "CenturyGothic";
+    font-size: 18px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    input{
+      margin-top: 35px;
+      border-style: solid;
+      width: 710px;
+      border-width: 0px;
+      border-bottom-width: 2px;
+      border-color: #BEBEBE;
+      padding-bottom: 10px;
+      color: rgba(0, 0, 0, 0.38);
+      font-family: "CenturyGothic";
+      font-size: 24px;
+    }
+  }
+}
